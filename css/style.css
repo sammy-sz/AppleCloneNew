@@ -14,6 +14,152 @@ img {
 
 /* main style end */
 
+/* Header style */
+header {
+  background-color: black;
+  padding: 15px 0;
+  font-size: 17px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /* background-color: #fafafa; */
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.header_links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul li {
+  height: 25px;
+  opacity: 0.7;
+}
+
+.logo-link,
+.cart_icon,
+.search_icon {
+  width: 18px;
+}
+/* header style end  */
+
+/* First section banner (16-inch MacBook Pro)
+style */
+.macbookPro {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 30px 0;
+}
+.title h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.descriptionmac p {
+  font-size: 2em;
+}
+
+.model p {
+  font-size: 0.86em;
+}
+
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.links-wrapper ul {
+  margin: 10px 0;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  color: black;
+}
+.links-wrapper ul li a::after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+/* First section end here  */
+
+/* second section starts - iphone 11 pro  */
+.iphone11Pro {
+  background-image: url(../Images//home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.description p {
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+.price-tag p {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* header style end  */
+/* third section  iphone11 style */
+.iphone11 {
+  background-image: url(../Images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Fourth section style*/
+.apple-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 10px;
+  /* flex-wrap: wrap; */
+}
+.appleWatch {
+  background-image: url(../Images/home/watch-series-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  width: 49.5%;
+  padding-top: 30px;
+
+  /* background-color: red; */
+}
+
+.appleCard {
+  background-image: url(../Images/home/apple-card.jpg);
+  height: 580px;
+  width: 49.5%;
+  /* background: yellow; */
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+}
+
+.apple_description {
+  max-width: 430px;
+  /* background: red; */
+  margin: 0 auto;
+  padding: 15px;
+}
+/* Fourth section style end */
+
 /* Fifth section style start */
 /* air pods pro & baby  */
 .tv-flex {
@@ -104,3 +250,4 @@ img {
 }
 
 /* Sixth section style ends here  */
+
